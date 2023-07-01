@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.encoding": "utf8bom",
+		"editor.tabCompletion": "on",
+		"editor.tabSize": 4,
+		"editor.insertSpaces": false,
+		"editor.detectIndentation": false,
+		"editor.wordWrap": "on"
+	}
+}

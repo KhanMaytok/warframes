@@ -1,0 +1,199 @@
+﻿namespace = init_warframes
+
+# Spawn warframe at game start
+init_warframes.0001 = {
+	scope = none
+	hidden = yes
+
+	immediate = {
+		# Oberon
+		random_ruler = {
+			limit = {
+				highest_held_title_tier >= tier_county
+			}
+			save_scope_as = oberon_host
+			create_character = {
+				location = scope:oberon_host.capital_province
+				template = male_warframe_character_template
+				save_scope_as = oberon_carrier
+			}
+			scope:oberon_carrier = {
+				set_employer = scope:oberon_host
+				faith = scope:oberon_host.faith
+				culture = scope:oberon_host.culture
+				add_trait = oberon_warframe
+			}
+		}
+
+		# Atlas
+		random_ruler = {
+			limit = {
+				highest_held_title_tier >= tier_county
+			}
+			save_scope_as = atlas_host
+			create_character = {
+				location = scope:atlas_host.capital_province
+				template = male_warframe_character_template
+				save_scope_as = atlas_carrier
+			}
+			scope:atlas_carrier = {
+				set_employer = scope:atlas_host
+				faith = scope:atlas_host.faith
+				culture = scope:atlas_host.culture
+				add_trait = atlas_warframe
+			}
+		}
+
+		# Loki
+		random_ruler = {
+			limit = {
+				highest_held_title_tier >= tier_county
+			}
+			save_scope_as = loki_host
+			create_character = {
+				location = scope:loki_host.capital_province
+				template = male_warframe_character_template
+				save_scope_as = loki_carrier
+			}
+			scope:loki_carrier = {
+				set_employer = scope:loki_host
+				faith = scope:loki_host.faith
+				culture = scope:loki_host.culture
+				add_trait = loki_warframe
+			}
+		}
+
+		# Rhino
+		random_ruler = {
+			limit = {
+				highest_held_title_tier >= tier_county
+			}
+			save_scope_as = rhino_host
+			create_character = {
+				location = scope:rhino_host.capital_province
+				template = male_warframe_character_template
+				save_scope_as = rhino_carrier
+			}
+			scope:rhino_carrier = {
+				set_employer = scope:rhino_host
+				faith = scope:rhino_host.faith
+				culture = scope:rhino_host.culture
+				add_trait = rhino_warframe
+			}
+		}
+
+		# Nidus
+		random_ruler = {
+			limit = {
+				highest_held_title_tier >= tier_county
+			}
+			save_scope_as = nidus_host
+			create_character = {
+				location = scope:nidus_host.capital_province
+				template = male_warframe_character_template
+				save_scope_as = nidus_carrier
+			}
+			scope:nidus_carrier = {
+				set_employer = scope:nidus_host
+				faith = scope:nidus_host.faith
+				culture = scope:nidus_host.culture
+				add_trait = nidus_warframe
+			}
+		}
+
+		# Saryn
+		random_ruler = {
+			limit = {
+				highest_held_title_tier >= tier_county
+			}
+			save_scope_as = saryn_host
+			create_character = {
+				location = scope:saryn_host.capital_province
+				template = female_warframe_character_template
+				save_scope_as = saryn_carrier
+			}
+			scope:saryn_carrier = {
+				set_employer = scope:saryn_host
+				faith = scope:saryn_host.faith
+				culture = scope:saryn_host.culture
+				add_trait = saryn_warframe
+			}
+		}
+
+		# titania
+		random_ruler = {
+			limit = {
+				highest_held_title_tier >= tier_county
+			}
+			save_scope_as = titania_host
+			create_character = {
+				location = scope:titania_host.capital_province
+				template = female_warframe_character_template
+				save_scope_as = titania_carrier
+			}
+			scope:titania_carrier = {
+				set_employer = scope:titania_host
+				faith = scope:titania_host.faith
+				culture = scope:titania_host.culture
+				add_trait = titania_warframe
+			}
+		}
+
+		# Hildryn
+		random_ruler = {
+			limit = {
+				highest_held_title_tier >= tier_county
+			}
+			save_scope_as = hildryn_host
+			create_character = {
+				location = scope:hildryn_host.capital_province
+				template = female_warframe_character_template
+				save_scope_as = hildryn_carrier
+			}
+			scope:hildryn_carrier = {
+				set_employer = scope:hildryn_host
+				faith = scope:hildryn_host.faith
+				culture = scope:hildryn_host.culture
+				add_trait = hildryn_warframe
+			}
+		}
+
+		# Nova
+		random_ruler = {
+			limit = {
+				highest_held_title_tier >= tier_county
+			}
+			save_scope_as = nova_host
+			create_character = {
+				location = scope:nova_host.capital_province
+				template = female_warframe_character_template
+				save_scope_as = nova_carrier
+			}
+			scope:nova_carrier = {
+				set_employer = scope:nova_host
+				faith = scope:nova_host.faith
+				culture = scope:nova_host.culture
+				add_trait = nova_warframe
+			}
+		}
+
+		# Wisp
+		random_ruler = {
+			limit = {
+				highest_held_title_tier >= tier_county
+			}
+			save_scope_as = wisp_host
+			create_character = {
+				location = scope:wisp_host.capital_province
+				template = female_warframe_character_template
+				save_scope_as = wisp_carrier
+			}
+			scope:wisp_carrier = {
+				set_employer = scope:wisp_host
+				faith = scope:wisp_host.faith
+				culture = scope:wisp_host.culture
+				add_trait = wisp_warframe
+			}
+		}
+	}
+}

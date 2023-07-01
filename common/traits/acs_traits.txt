@@ -1,0 +1,80 @@
+﻿# THE HAND. Warframes as traits
+# 5 - males - 5 females. Excluded: Nidus: Khalga - Saryn - Vee
+# Oberon - Atlas - Loki - Rhino
+# Titania - Hyldrin - Nova - Wisp
+
+oberon_warframe = {
+	index = 1532
+	minimum_age = 16
+	health = 2.0
+	valid_sex = male	
+}
+
+atlas_warframe = {
+	index = 1533
+	minimum_age = 16
+	health = 2.0
+	valid_sex = male	
+}
+
+loki_warframe = {
+	index = 1534
+	minimum_age = 16
+	health = 2.0
+	valid_sex = male	
+}
+
+rhino_warframe = {
+	index = 1535
+	minimum_age = 16
+	health = 2.0
+	valid_sex = male	
+}
+
+nidus_warframe = {
+	index = 1536
+	minimum_age = 16
+	health = 2.0
+	valid_sex = male	
+}
+
+saryn_warframe = {
+	index = 1537
+	minimum_age = 16
+	health = 2.0
+	valid_sex = female	
+}
+
+titania_warframe = {
+	index = 1539
+	minimum_age = 16
+	health = 2.0
+	valid_sex = female	
+}
+
+hildryn_warframe = {
+	index = 1541
+	minimum_age = 16
+	health = 2.0
+	valid_sex = female	
+}
+
+nova_warframe = {
+	index = 1542
+	minimum_age = 16
+	health = 2.0
+	valid_sex = female	
+}
+
+wisp_warframe = {
+	index = 1543
+	minimum_age = 16
+	health = 2.0
+	valid_sex = female	
+}
+
+helena = {
+	index = 1544
+	health = 2.0
+	valid_sex = female	
+}

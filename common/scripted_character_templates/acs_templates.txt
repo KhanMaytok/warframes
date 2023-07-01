@@ -1,0 +1,65 @@
+﻿male_warframe_character_template = {
+	age = { 20 30 }
+	faith = prev.faith
+	culture = prev.culture
+	gender_female_chance = 0
+
+	# Traits
+	random_traits_list = {
+		count = 1
+		education_learning_2 = {}
+		education_learning_3 = {}
+		education_learning_4 = {}
+	}
+	trait = ash_warframe
+	random_traits = yes
+	
+	# Skills
+	learning = {
+		min_template_medium_skill
+		max_template_medium_skill
+	}
+
+	after_creation = {
+		add_trait_xp = {
+			trait = lifestyle_physician
+			value = {
+				medium_lifestyle_random_xp_low
+				medium_lifestyle_random_xp_high
+			}
+		}
+	}
+}
+
+female_warframe_character_template = {
+	age = { 20 30 }
+	faith = prev.faith
+	culture = prev.culture
+	gender_female_chance = 100
+
+	# Traits
+	random_traits_list = {
+		count = 1
+		education_learning_2 = {}
+		education_learning_3 = {}
+		education_learning_4 = {}
+	}
+	trait = harrow_warframe
+	random_traits = yes
+	
+	# Skills
+	learning = {
+		min_template_medium_skill
+		max_template_medium_skill
+	}
+
+	after_creation = {
+		add_trait_xp = {
+			trait = lifestyle_physician
+			value = {
+				medium_lifestyle_random_xp_low
+				medium_lifestyle_random_xp_high
+			}
+		}
+	}
+}

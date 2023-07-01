@@ -1,0 +1,14 @@
+﻿2100001 = {
+	name = "Pentaghast"
+	culture = "french"
+}
+
+2100002 = {
+	name = "Sakya"
+	culture = "french"
+}
+
+2100003 = {
+	name = "Maytok"
+	culture = "french"
+}
