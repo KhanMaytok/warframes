@@ -1,0 +1,5 @@
+﻿on_death = {
+	events = {
+		acs_death.0001
+	}
+}

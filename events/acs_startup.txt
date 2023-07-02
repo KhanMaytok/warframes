@@ -21,6 +21,7 @@ init_warframes.0001 = {
 				set_employer = scope:oberon_host
 				faith = scope:oberon_host.faith
 				culture = scope:oberon_host.culture
+				add_character_flag = flag_warframe_carrier
 				add_trait = oberon_warframe
 			}
 		}
@@ -40,6 +41,7 @@ init_warframes.0001 = {
 				set_employer = scope:atlas_host
 				faith = scope:atlas_host.faith
 				culture = scope:atlas_host.culture
+				add_character_flag = flag_warframe_carrier
 				add_trait = atlas_warframe
 			}
 		}
@@ -59,6 +61,7 @@ init_warframes.0001 = {
 				set_employer = scope:loki_host
 				faith = scope:loki_host.faith
 				culture = scope:loki_host.culture
+				add_character_flag = flag_warframe_carrier
 				add_trait = loki_warframe
 			}
 		}
@@ -78,6 +81,7 @@ init_warframes.0001 = {
 				set_employer = scope:rhino_host
 				faith = scope:rhino_host.faith
 				culture = scope:rhino_host.culture
+				add_character_flag = flag_warframe_carrier
 				add_trait = rhino_warframe
 			}
 		}
@@ -97,6 +101,7 @@ init_warframes.0001 = {
 				set_employer = scope:nidus_host
 				faith = scope:nidus_host.faith
 				culture = scope:nidus_host.culture
+				add_character_flag = flag_warframe_carrier
 				add_trait = nidus_warframe
 			}
 		}
@@ -116,6 +121,7 @@ init_warframes.0001 = {
 				set_employer = scope:saryn_host
 				faith = scope:saryn_host.faith
 				culture = scope:saryn_host.culture
+				add_character_flag = flag_warframe_carrier
 				add_trait = saryn_warframe
 			}
 		}
@@ -135,6 +141,7 @@ init_warframes.0001 = {
 				set_employer = scope:titania_host
 				faith = scope:titania_host.faith
 				culture = scope:titania_host.culture
+				add_character_flag = flag_warframe_carrier
 				add_trait = titania_warframe
 			}
 		}
@@ -154,6 +161,7 @@ init_warframes.0001 = {
 				set_employer = scope:hildryn_host
 				faith = scope:hildryn_host.faith
 				culture = scope:hildryn_host.culture
+				add_character_flag = flag_warframe_carrier
 				add_trait = hildryn_warframe
 			}
 		}
@@ -173,6 +181,7 @@ init_warframes.0001 = {
 				set_employer = scope:nova_host
 				faith = scope:nova_host.faith
 				culture = scope:nova_host.culture
+				add_character_flag = flag_warframe_carrier
 				add_trait = nova_warframe
 			}
 		}
@@ -192,6 +201,7 @@ init_warframes.0001 = {
 				set_employer = scope:wisp_host
 				faith = scope:wisp_host.faith
 				culture = scope:wisp_host.culture
+				add_character_flag = flag_warframe_carrier
 				add_trait = wisp_warframe
 			}
 		}

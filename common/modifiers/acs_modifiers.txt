@@ -1,0 +1,6 @@
+﻿# Province modifiers
+
+warframe_province_modifier = {
+	icon = county_modifier_development_positive
+	monthly_income = 1
+}
